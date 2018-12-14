@@ -11,7 +11,8 @@ avatar: /assets/img/ogp.png
 # favicon: /favicon.ico
 favicon: /assets/img/ogp.png
 # language: ja
-language: en
+# language: en
+language: zh-Hans
 
 #
 # Icons
