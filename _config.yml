@@ -5,8 +5,8 @@
 # baseurl: ""
 url: https://changhungtao.github.io
 baseurl: /myblog
-title: Your name
-description: Some descriptions of yourself.
+title: ChangHungtao's BLOG
+description: 革命尚未成功，同志仍需死kě
 avatar: /assets/img/ogp.png
 # favicon: /favicon.ico
 favicon: /assets/img/ogp.png
@@ -78,7 +78,7 @@ share_buttons:
   facebook: false # needs ogp.fb.app_id
   hatena: false
 ogp:
-  image_url: //ttskch.github.io/jekyll-ttskch-theme/assets/img/ogp.png
+  image_url: //changhungtao.github.io/myblog/assets/img/ogp.png
   fb:
     admin: # facebook admin id
     app_id: # facebook application id
