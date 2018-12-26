@@ -4,7 +4,7 @@
 # url: http://localhost:4000
 # baseurl: ""
 url: https://changhungtao.github.io
-baseurl: /myblog
+baseurl: ""
 title: ChangHungtao's BLOG
 description: 革命尚未成功，同志仍需死kě
 avatar: /assets/img/ogp.png
