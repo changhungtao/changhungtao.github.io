@@ -117,8 +117,9 @@ cd /home/devstack
 
 ## 10.创建local.conf文件
 
+创建[local.conf]({{ site.url }}/assets/file/local.conf)文件，并填入一下内容：
+
 ```shell
-# cat local.conf
 [[local|localrc]]
 DATA_DIR=/opt/stack/data
 DEST=/opt/stack
