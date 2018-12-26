@@ -224,3 +224,9 @@ enable_plugin tacker http://git.trystack.cn/openstack/tacker
 ```shell
 tailf /opt/stack/logs/stack.sh.log
 ```
+
+## 13.问题集锦
+
+### 13.1 运行stack.sh的过程中如果反复需要输入stack用户密码
+
+运行stack.sh的过程中如果反复需要输入stack用户密码时，可以运行/home/devstack/tools/create-stack-user.sh脚本，给stack用户赋权
