@@ -22,7 +22,7 @@ yum -y install net-tools
 ```shell
 systemctl stop firewalld.service #停止firewall
 systemctl disable firewalld.service #禁止firewall开机启动
-firewall-cmd --state #查看默认防火墙状态（关闭后显示notrunning，开启后显示running）
+firewall-cmd --state #查看默认防火墙状态(关闭后显示notrunning，开启后显示running)
 ```
 
 ### 2.2 关闭iptables，如果有也关一下，不然可能装完之后访问不了：
@@ -69,35 +69,53 @@ yum makecache
 yum update -y
 ```
 
-## 5.准备Devstack
+## 5.安装pip并修改pip源：
+
+```shell
+apt-get install python-pip
+mkdir ~/.pip
+vi ~/.pip/pip.conf
+```
+
+修改成以下内容(豆瓣源)
+
+```shell
+#cat ~/.pip/pip.conf
+[global]
+index-url = http://pypi.douban.com/simple/
+trusted-host = pypi.douban.com
+```
+
+
+## 6.准备Devstack
 
 ```shell
 cd /home
 git clone https://github.com/openstack-dev/devstack.git -b stable/rocky
 ```
 
-## 6.需要创建stack用户运行
+## 7.需要创建stack用户运行
 
 ```shell
 cd /home/devstack/tools/
 bash ./create-stack-user.sh
 ```
 
-## 7.在root下修改devstack目录权限，让stack用户可以运行
+## 8.在root下修改devstack目录权限，让stack用户可以运行
 
 ```shell
 chown -R stack:stack devstack
 chmod 777 /opt/stack -R
 ```
 
-## 8.切换到stack用户下
+## 9.切换到stack用户下
 
 ```shell
 su stack
 cd /home/devstack
 ```
 
-## 9.创建local.conf文件
+## 10.创建local.conf文件
 
 ```shell
 # cat local.conf
@@ -195,13 +213,13 @@ enable_plugin barbican http://git.trystack.cn/openstack/barbican
 enable_plugin tacker http://git.trystack.cn/openstack/tacker
 ```
 
-## 10.执行stack.sh
+## 11.执行stack.sh
 
 ```shell
 ./stack.sh
 ```
 
-## 11.可在/opt/stack/logs/stack.sh.log中查看执行日志。
+## 12.可在/opt/stack/logs/stack.sh.log中查看执行日志。
 
 ```shell
 tailf /opt/stack/logs/stack.sh.log
