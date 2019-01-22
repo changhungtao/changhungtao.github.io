@@ -4,17 +4,17 @@ title: tcpdump抓取VLAN的tag
 tags: Linux tcpdump
 ---
 
-## 1、tcpdump的参数信息
+本文主要介绍使用tcpdump命令查看VLAN的tag的方法
+<!--more-->
+
+### 1、tcpdump的参数信息
 
   -n    不转换主机地址到主机名，这样用于避免DNS解析
-
   -i    指定网络接口
-
   -e    增加以太网帧头部信息输出
-
   -v    输出更详细的信息
   
-## 2、抓取vlan的信息
+### 2、抓取vlan的信息
 ```shell
 [root@zht-controller ~]# tcpdump -i ens192 -v -e host 192.168.149.254
 tcpdump: listening on ens192, link-type EN10MB (Ethernet), capture size 262144 bytes
