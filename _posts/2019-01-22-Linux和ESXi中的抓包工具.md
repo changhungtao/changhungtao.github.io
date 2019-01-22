@@ -72,8 +72,8 @@ pktcap-uw --uplink vmnic0 -o vmnic0.pcap
 
 tcpdump-uw没有流量的概念，当你用tcpdump-uw对vmk0进行抓包时，你可以看到VMkernel入向和出向的报文。pktcap-uw则引入了捕捉点的概念，来决定你在哪儿进行抓包。对于VMkernel流量，你有2个捕捉点：
 
-> PortOutput: 从虚拟交换机到VMkernel的流量。
-> PortInput: 从VMkernel 到虚拟交换机的流量。（默认）
+* PortOutput: 从虚拟交换机到VMkernel的流量。
+* PortInput: 从VMkernel 到虚拟交换机的流量。（默认）
 
 例如：
 ```shell
@@ -91,7 +91,7 @@ pktcap-uw不关心具体的IP协议，因为协议ID是IPv4头部信息的一部
 pktcap-uw --vmk vmk0 --proto 0x01
 ```
 
-IP协议列表和ID参考[这里](https://en.wikipedia.org/wiki/List_of_IP_protocol_numbers)
+完整IP协议列表和协议ID参考[这里](https://en.wikipedia.org/wiki/List_of_IP_protocol_numbers)
 
 #### 3、VLAN的tag号过滤
 ```shell
