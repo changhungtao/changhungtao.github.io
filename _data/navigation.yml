@@ -1,0 +1,25 @@
+# main links
+main:
+  # - title: "Quick-Start Guide"
+  #   url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
+
+  - title: "谷歌"
+    url: https://g.kfd.me/
+  - title: "技术"
+    url: /categories/技术/
+  - title: "生活"
+    url: /tags/life/
+  - title: "标签"
+    url: /tags/
+  - title: "站点导航"
+    url: /sitemap/
+  # - title: "必应"
+  #   url: https://cn.bing.com/
+  # - title: "Yandex"
+  #   url: https://www.yandex.com/
+  # - title: "mezw"
+  #   url: https://so.mezw.com/
+  # - title: "Ecosia"
+  #   url: https://www.ecosia.org/
+  - title: "关于" 
+    url: /about/

@@ -1,7 +1,15 @@
 ---
-layout: post
-title: DevStack安装OpenStack
-tags: OpenStack Linux 
+title: "DevStack安装OpenStack"
+excerpt: "本文主要介绍使用DevStack在CentOS 7上搭建OpenStack"
+last_modified_at: 2018-12-26T05:31:40+08:00
+toc: true
+toc_label: "Included Layouts"
+toc_icon: "columns"
+categories:
+  - 技术
+tags:
+  - Linux
+  - OpenStack
 ---
 
 本文主要介绍使用DevStack在CentOS 7上搭建OpenStack
