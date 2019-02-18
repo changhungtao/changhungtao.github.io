@@ -109,12 +109,12 @@ author:
   name             : "张洪涛"
   avatar           : "/assets/img/ogp.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "革命尚未成功，同志仍需死kě"
-  location         : "武汉, China"
+  location         : "武汉, 中国"
   email            : "changhungtao@gmail.com"
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: mailto:changhungtao@gmail.com
+    #- label: "Email"
+    #  icon: "fas fa-fw fa-envelope-square"
+    #  url: mailto:changhungtao@gmail.com
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://changhungtao.github.io/"
@@ -127,6 +127,9 @@ author:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/changhungtao"
+    - label: "Linkedin"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://kfd.me/"
     #- label: "Instagram"
     #  icon: "fab fa-fw fa-instagram"
     #  # url: "https://instagram.com/"
