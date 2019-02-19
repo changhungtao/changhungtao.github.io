@@ -15,6 +15,51 @@ layouts_gallery:
 last_modified_at: 2019-02-15T14:51:00-08:00
 ---
 
-这个程序员很懒，什么都没有写
-
 {% include gallery id="layouts_gallery" caption="喂马、劈柴、周游世界" %}
+
+### 中文名字
+#### 汉字
+
+```
+张洪涛
+```
+
+#### 汉语拼音
+
+```
+Zhang Hongtao
+```
+
+#### 韦氏拼音
+
+```
+Chang Hung-t'ao
+```
+
+#### 粤语拼音
+
+```
+Cheung Hungtou
+```
+
+### 日文名字
+#### 汉字
+```
+張洪濤
+```
+#### 假名
+
+```
+ちょうこうとう
+```
+
+#### 音译
+
+```
+Tyou Koutou
+```
+
+
+
+
+
