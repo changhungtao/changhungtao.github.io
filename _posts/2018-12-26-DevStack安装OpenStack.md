@@ -1,7 +1,7 @@
 ---
 title: "DevStack安装OpenStack"
 excerpt: "本文主要介绍使用DevStack在CentOS 7上搭建OpenStack"
-last_modified_at: 2018-12-26T05:31:40+08:00
+last_modified_at: 2018-12-26T09:00:00
 toc: true
 toc_label: "目录"
 toc_icon: "columns"

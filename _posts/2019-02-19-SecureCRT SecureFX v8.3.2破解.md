@@ -1,7 +1,7 @@
 ---
 title: "SecureCRT SecureFX v8.3.2 破解"
 excerpt: "介绍SecureCRT SecureFX v8.3.2的破解方法"
-last_modified_at: 2019-02-19T11:02:00-08:00
+last_modified_at: 2019-02-19T11:02:00
 comments: true
 toc: true
 toc_label: "目录"
