@@ -1,6 +1,6 @@
 ---
 title: "Windows设置PowerShell远程访问"
-excerpt: "本文介绍Windows下设置PowerShell远程访问的设置方法"
+excerpt: "本文介绍Windows下配置PowerShell远程访问的方法"
 last_modified_at: 2019-02-20T10:52:00
 toc: true
 toc_label: "目录"
@@ -67,13 +67,15 @@ nrm help config。 有关详细信息，请参阅 about_Remote_Troubleshooting �
 Set-Item wsman:\localhost\Client\TrustedHosts -value 192.168.3.*
 ```
 
-> 注意这个命令需要在`客户端`上执行，不是在服务端执行，且客户端需要以`管理员权限`执行。
+**注意：**这个命令需要在`客户端`上执行，不是在服务端执行，且客户端需要以`管理员权限`执行。
+{: .notice--warning}
 
 之后再用以下命令完成连接
 ```
 Enter-PSSession 192.168.3.1 -Credential abc\administrator
 ```
 > 没有域的情况下直接输入用户名
+{: .notice--info}
 
 ![WinRM-1.png]({{site.url}}/assets/img/WinRM-1.png){: .align-center}
 

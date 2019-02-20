@@ -115,9 +115,9 @@ author:
     #- label: "Email"
     #  icon: "fas fa-fw fa-envelope-square"
     #  url: mailto:changhungtao@gmail.com
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://changhungtao.github.io/"
+    # - label: "Website"
+    #  icon: "fas fa-fw fa-link"
+    #  url: "https://changhungtao.github.io/"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/changhungtao"

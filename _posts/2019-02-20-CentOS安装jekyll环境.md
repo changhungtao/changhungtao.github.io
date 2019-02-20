@@ -50,3 +50,7 @@ jekyll new blog
 ```
 
 ---
+
+#### 6. 参考文档
+
+[https://www.jekyll.com.cn/](https://www.jekyll.com.cn/)
