@@ -22,43 +22,43 @@ name                     : "ChangHungtao"
 description              : "革命尚未成功，同志仍需死kě"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : "changhungtao/changhungtao.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 20
 comments:
-  provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "staticman_v2", "utterances", "custom"
-  disqus:
-    shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
-  discourse:
-    server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
-  facebook:
-    # https://developers.facebook.com/docs/plugins/comments
-    appid                :
-    num_posts            : # 5 (default)
-    colorscheme          : # "light" (default), "dark"
-  utterances:
-    theme                : # "github-light" (default), "github-dark"
-    issue_term           : # "pathname" (default)
+  provider               : "staticman_v2" # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "staticman_v2", "utterances", "custom"
+  # disqus:
+  #   shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+  # discourse:
+  #   server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
+  # facebook:
+  #   # https://developers.facebook.com/docs/plugins/comments
+  #   appid                :
+  #   num_posts            : # 5 (default)
+  #   colorscheme          : # "light" (default), "dark"
+  # utterances:
+  #   theme                : # "github-light" (default), "github-dark"
+  #   issue_term           : # "pathname" (default)
 staticman:
-  allowedFields          : # ['name', 'email', 'url', 'message']
-  branch                 : # "master"
-  commitMessage          : # "New comment by {fields.name}"
-  filename               : # comment-{@timestamp}
-  format                 : # "yml"
-  moderation             : # true
-  path                   : # "/_data/comments/{options.slug}" (default)
-  requiredFields         : # ['name', 'email', 'message']
+  allowedFields          : ["name", "email", "url", "message"] # ['name', 'email', 'url', 'message']
+  branch                 : "master"
+  commitMessage          : "New comment by {fields.name}"
+  filename               : comment-{@timestamp}
+  format                 : "yaml"
+  moderation             : false # true
+  path                   : "_data/comments/{options.slug}" # "/_data/comments/{options.slug}" (default)
+  requiredFields         : ['name', 'email', 'message']
   transforms:
-    email                : # "md5"
+    email                : "md5"
   generatedFields:
     date:
-      type               : # "date"
+      type               : "date"
       options:
-        format           : # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
-  endpoint               : # URL of your own deployment with trailing slash, will fallback to the public instance
+        format           : "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
+  endpoint               : "http://192.168.126.110/v2/entry/" # URL of your own deployment with trailing slash, will fallback to the public instance
 reCaptcha:
   siteKey                :
   secret                 :
@@ -66,7 +66,7 @@ atom_feed:
   path                   : # blank (default) uses feed.xml
 search                   : true # true, false (default)
 search_full_content      : true # true, false (default)
-search_provider          : lunr # lunr (default), algolia, google
+search_provider          : "lunr" # lunr (default), algolia, google
 algolia:
   application_id         : #PJM2Z5MDUK # YOUR_APPLICATION_ID
   index_name             : # YOUR_INDEX_NAME
@@ -295,7 +295,7 @@ defaults:
       read_time: false
       comments: true
       share: false
-      related: false
+      related: true
   # _pages
   - scope:
       path: "_pages"
@@ -303,3 +303,4 @@ defaults:
     values:
       layout: single
       author_profile: true
+      comments: true

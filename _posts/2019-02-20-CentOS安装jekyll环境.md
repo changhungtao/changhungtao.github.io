@@ -9,6 +9,7 @@ categories:
   - 技术
 tags:
   - Linux
+  - Jekyll
 ---
 
 #### 1. 安装依赖包
