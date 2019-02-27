@@ -1,5 +1,6 @@
 ---
 title: "CentOS安装jekyll环境"
+uuid: e5a21b6b-88a6-43af-87d6-a5a63a26522c
 excerpt: "本文主要介绍在CentOS系统下安装jekyll环境的过程"
 last_modified_at: 2019-02-20T10:00:00
 toc: true

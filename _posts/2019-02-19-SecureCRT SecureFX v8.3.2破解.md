@@ -1,5 +1,6 @@
 ---
 title: "SecureCRT SecureFX v8.3.2 破解"
+uuid: 3613b427-d933-4561-945a-8e2977650988
 excerpt: "介绍SecureCRT SecureFX v8.3.2的破解方法"
 last_modified_at: 2019-02-19T11:02:00
 comments: true

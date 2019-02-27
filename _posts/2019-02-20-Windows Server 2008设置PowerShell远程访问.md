@@ -1,5 +1,6 @@
 ---
 title: "Windows设置PowerShell远程访问"
+uuid: ec789d47-ad24-4837-9ea5-51f5d521ca15
 excerpt: "本文介绍Windows下配置PowerShell远程访问的方法"
 last_modified_at: 2019-02-20T10:52:00
 toc: true

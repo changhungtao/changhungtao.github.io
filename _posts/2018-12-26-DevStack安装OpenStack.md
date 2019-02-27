@@ -1,5 +1,6 @@
 ---
 title: "DevStack安装OpenStack"
+uuid: 113512e9-b845-462e-8ab6-80e00290ba37
 excerpt: "本文主要介绍使用DevStack在CentOS 7上搭建OpenStack"
 last_modified_at: 2018-12-26T09:00:00
 toc: true

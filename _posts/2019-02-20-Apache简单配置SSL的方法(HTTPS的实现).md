@@ -1,5 +1,6 @@
 ---
 title: "Apache简单配置SSL的方法(HTTPS的实现)"
+uuid: 97dccbd4-4923-4ccd-85cb-f513e6e058f4
 excerpt: "本文主要介绍CentOS和Ubuntu系统下Apache配置HTTPS的方法"
 last_modified_at: 2019-02-20T12:14:00
 toc: true

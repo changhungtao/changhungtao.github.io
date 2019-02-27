@@ -1,5 +1,6 @@
 ---
 title: "Linux和ESXi中的抓包工具"
+uuid: 219f6574-9bbc-400d-9f50-b33215e7c34b
 excerpt: "介绍在Linux和ESXi机器上如何使用命令行抓网络通信报文"
 last_modified_at: 2019-01-22T09:00:00
 toc: true
