@@ -1,5 +1,6 @@
 ---
 title: "Test EN. Language"
+uuid: 73638380-49da-4e8c-a23e-d634822b639e
 subtitle: "Staticman Powered GitLab Pages"
 date: 2018-09-16T19:12:15+02:00
 type: post

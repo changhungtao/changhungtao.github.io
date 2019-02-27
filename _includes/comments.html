@@ -30,20 +30,9 @@
         {% if site.repository and site.staticman.branch %}
           <!-- Start static comments -->
           <div class="js-comments">
-            <h4>測試代碼</h4>
-            <h4> 變量1 </h4>
-            <h4> {{ site.data.comments[page.slug] }} </h4>
-            <h4> 變量2 </h4>
-            <h4> {{ page.slug }} </h4>
-            <h4> 變量3 </h4>
-            <h4> {{ site.data.comments }} </h4>
-            <h4> 變量4 </h4>
-            <h4> {{ site.data.comments }} </h4>
-            <h4> 變量5 </h4>
-            <h4> {{ page }} </h4>
-            {% if site.data.comments[page.slug] %}
+            {% if site.data.comments[page.uuid] %}
               <h4 class="page__comments-title">{{ site.data.ui-text[site.locale].comments_title | default: "Comments" }}</h4>
-              {% assign comments = site.data.comments[page.slug] | sort %}
+              {% assign comments = site.data.comments[page.uuid] | sort %}
 
               {% for comment in comments %}
                 {% assign email = comment[1].email %}
@@ -85,7 +74,8 @@
                 <input type="url" id="comment-form-url" name="fields[url]" tabindex="4"/>
               </div>
               <div class="form-group hidden" style="display: none;">
-                <input type="hidden" name="options[slug]" value="{{ page.slug }}">
+                <input type="hidden" name="options[uuid]" value="{{ page.uuid }}">
+                <input type="hidden" name="fields[slug]" value="{{ page.slug }}">
                 <label for="comment-form-location">Not used. Leave blank if you are a human.</label>
                 <input type="text" id="comment-form-location" name="fields[hidden]" autocomplete="off"/>
                 {% if site.reCaptcha.siteKey %}<input type="hidden" name="options[reCaptcha][siteKey]" value="{{ site.reCaptcha.siteKey }}">{% endif %}
