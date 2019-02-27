@@ -1,0 +1,6 @@
+{% capture music_id %}{{ page.header.music.id }}{% endcapture %}
+{% capture music_provider %}{{ page.header.music.provider }}{% endcapture %}
+{% capture music_type %}{{ page.header.music.type }}{% endcapture %}
+{% capture music_auto %}{{ page.header.music.auto }}{% endcapture %}
+
+{% include music id=music_id provider=music_provider type=music_type auto=music_auto %}

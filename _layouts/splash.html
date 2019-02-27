@@ -6,6 +6,8 @@ layout: default
   {% include page__hero.html %}
 {% elsif page.header.video.id and page.header.video.provider %}
   {% include page__hero_video.html %}
+{% elsif page.header.music.id and page.header.music.provider %}
+  {% include page__hero_music.html %}
 {% endif %}
 
 <div id="main" role="main">
