@@ -30,7 +30,10 @@
         {% if site.repository and site.staticman.branch %}
           <!-- Start static comments -->
           <div class="js-comments">
-            <p> {% site.data.comments[page.slug] %} </p>
+            <h4>測試代碼</h4>
+            <h4> {{  site.data.comments[page.slug]  }} </h4>
+            <h4> 變量2 </h4>
+            <h4> {{  site.data.comments }} </h4>
             {% if site.data.comments[page.slug] %}
               <h4 class="page__comments-title">{{ site.data.ui-text[site.locale].comments_title | default: "Comments" }}</h4>
               {% assign comments = site.data.comments[page.slug] | sort %}
