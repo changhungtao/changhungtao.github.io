@@ -2,7 +2,7 @@
 title: "CentOS 7部署mimic版Ceph集群"
 uuid: 6758e3d1-75b6-40ba-80ad-6ca70b86c880
 excerpt: "本文主要介绍在CentOS 7上部署mimic版本Ceph集群的步骤。"
-last_modified_at: 2019-03-04T16:06:00
+last_modified_at: 2019-03-05T10:06:00
 comments: true
 categories:
   - 技术
