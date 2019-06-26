@@ -1,25 +1,51 @@
-# main links
-main:
-  # - title: "Quick-Start Guide"
-  #   url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
+header:
+  - titles:
+      en      : &EN       Archive
+      en-GB   : *EN
+      en-US   : *EN
+      en-CA   : *EN
+      en-AU   : *EN
+      zh-Hans : &ZH_HANS  归档
+      zh      : *ZH_HANS
+      zh-CN   : *ZH_HANS
+      zh-SG   : *ZH_HANS
+      zh-Hant : &ZH_HANT  歸檔
+      zh-TW   : *ZH_HANT
+      zh-HK   : *ZH_HANT
+      ko      : &KO       아카이브
+      ko-KR   : *KO
+    url: /archive.html
 
-  - title: "谷歌"
-    url: https://g.kfd.me/
-  - title: "技术"
-    url: /categories/技术/
-  - title: "生活"
-    url: /tags/life/
-  - title: "标签"
-    url: /tags/
-  - title: "站点导航"
-    url: /sitemap/
-  # - title: "必应"
-  #   url: https://cn.bing.com/
-  # - title: "Yandex"
-  #   url: https://www.yandex.com/
-  # - title: "mezw"
-  #   url: https://so.mezw.com/
-  # - title: "Ecosia"
-  #   url: https://www.ecosia.org/
-  - title: "关于" 
-    url: /about/
+  - titles:
+      en      : &EN       About
+      en-GB   : *EN
+      en-US   : *EN
+      en-CA   : *EN
+      en-AU   : *EN
+      zh-Hans : &ZH_HANS  关于
+      zh      : *ZH_HANS
+      zh-CN   : *ZH_HANS
+      zh-SG   : *ZH_HANS
+      zh-Hant : &ZH_HANT  關於
+      zh-TW   : *ZH_HANT
+      zh-HK   : *ZH_HANT
+      ko      : &KO       소개
+      ko-KR   : *KO
+    url: /about.html
+
+  - titles:
+      en      : &EN       GitHub
+      en-GB   : *EN
+      en-US   : *EN
+      en-CA   : *EN
+      en-AU   : *EN
+      zh-Hans : &ZH_HANS  GitHub
+      zh      : *ZH_HANS
+      zh-CN   : *ZH_HANS
+      zh-SG   : *ZH_HANS
+      zh-Hant : &ZH_HANT  GitHub
+      zh-TW   : *ZH_HANT
+      zh-HK   : *ZH_HANT
+      ko      : &KO       GitHub
+      ko-KR   : *KO
+    url: https://github.com/changhungtao/changhungtao.github.io
