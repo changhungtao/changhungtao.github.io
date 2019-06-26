@@ -1,8 +1,0 @@
-_id: 5737e0a0-3aa7-11e9-990b-379bef77f845
-message: "Congrats!  Your article deserves a static comment.\r\n\r\nThe `comments:` in the first line is the property name.  You may view, for example, [this GitHub repo](https://github.com/sdessus/comments_blog_tdm/blob/master/staticman.yml).  I expect it to be there.  Since I've never used `/v2`, I *can't* comment on that."
-name: Vincent Tam
-email: 4980f828b9588a712cc2013ac10fd13a
-url: 'https://lstu.fr/3s'
-slug: 使用Statiman给博客提供评论功能
-hidden: ''
-date: '2019-02-27T15:50:01.446Z'

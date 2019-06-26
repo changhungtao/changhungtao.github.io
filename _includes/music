@@ -1,9 +1,0 @@
-{% capture music_id %}{{ include.id }}{% endcapture %}
-{% capture music_provider %}{{ include.provider }}{% endcapture %}
-{% capture music_type %}{{ include.type }}{% endcapture %}
-{% capture music_auto %}{{ include.auto }}{% endcapture %}
-
-
-{% if music_provider == "music.163.com" %}
-  <iframe src="//music.163.com/outchain/player?type={{ music_type }}&id={{ music_id }}&auto={{ music_auto }}&height=66" frameborder="0" border="0" marginwidth="0" marginheight="0" width="330" height="86"></iframe>
-{% endif %}

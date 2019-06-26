@@ -1,8 +1,0 @@
-_id: 0bb84d40-3b24-11e9-b35d-8736dd52698a
-message: "感谢Vincent Tam，我已经将Staticman API升级到使用`V3`版。\r\n\r\n另外，如果需要显示评论头像，需要在[Gravatar](https://en.gravatar.com/)网站设置邮箱的头像，本博客会访问https://www.gravatar.com/avatar/{邮箱md5值}?d=mm&amp;s=80 获取访客头像。基本原理可参考[Gravatar帮助文档](https://en.gravatar.com/site/implement/)"
-name: 张洪涛
-email: 9dbe00b62ce9224b4df10bbfc6dbe438
-url: 'https://changhungtao.github.io'
-slug: 使用Statiman给博客提供评论功能
-hidden: ''
-date: '2019-02-28T06:42:41.778Z'
