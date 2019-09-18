@@ -77,7 +77,7 @@ sudo systemctl enable docker.service
 sudo docker run hello-world
 ```
 
-> *参考链接：https://docs.docker.com/install/linux/docker-ce/centos/*
+> *参考链接：[https://docs.docker.com/install/linux/docker-ce/centos/](https://docs.docker.com/install/linux/docker-ce/centos/)*
 
 ---
 
@@ -97,7 +97,7 @@ tar -C /usr/local -xzf go1.13.linux-amd64.tar.gz
 source /etc/profile
 ```
 
-> *参考链接：https://golang.org/doc/install*
+> *参考链接：[https://golang.org/doc/install](https://golang.org/doc/install)*
 
 ---
 
@@ -190,7 +190,9 @@ docker run -d \
 prom/node-exporter
 ```
 
-然后把这两些接口再次配置到prometheus.yml，重新载入配置curl -X POST http://localhost:9090/-/reload
+然后把这两些接口再次配置到prometheus.yml，重新载入配置curl -X POST http://192.168.126.111:9090/-/reload
+
+> *使用链接方式重新载入配置总是不成功，我一直用的重启Prometheus Server服务*
 
 ```yaml
 global:
@@ -273,7 +275,7 @@ docker run -d -p 3000:3000 --name grafana grafana/grafana
 
 Docker的网络配置太麻烦了，以下为使用realse包安装Prometheus的过程。
 
-- 官方下载链接：https://prometheus.io/download/
+- 官方下载链接：[https://prometheus.io/download/](https://prometheus.io/download/)
 
 - 安装`screen`: 
 
@@ -418,7 +420,7 @@ There are screens on:
 
 #### 企业微信的申请与配置
 
-- 微信企业号申请地址：https://work.weixin.qq.com/
+- 微信企业号申请地址：[https://work.weixin.qq.com/](https://work.weixin.qq.com/)
 
 ![1568721820343]({{site.url}}/assets/img/prometheus/1568721820343.png){: .align-center}
 
@@ -488,7 +490,7 @@ There are screens on:
 }
 ```
 
-如果请求范围错误，可根据`errcode`在企业微信官网指导文档中查询错误原因，例如：
+如果请求范围错误，可根据`errcode`在企业微信官网[指导](https://open.work.weixin.qq.com/devtool/query)中查询错误原因，例如：
 
 ```json
 {
@@ -508,4 +510,3 @@ There are screens on:
 *参考链接：https://www.cnblogs.com/chenqionghe/p/10494868.html*
 
 *参考链接：https://yunlzheng.gitbook.io/prometheus-book/*
-
