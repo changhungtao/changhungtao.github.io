@@ -456,7 +456,7 @@ There are screens on:
 
 #### 调试企业微信应用API
 
-如果出现企业微信收不到告警信息，可以通过访问企业微信API方式调试发送告警消息。
+如果出现企业微信收不到告警信息，可以通过访问企业微信API方式调试发送告警消息。企业微信相关概念说明请参考[企业微信API说明](https://work.weixin.qq.com/api/doc#90000/90135/90665)。
 
 - 获取API的access_token
 
@@ -507,6 +507,6 @@ There are screens on:
 
 ### 附录
 
-*参考链接：https://www.cnblogs.com/chenqionghe/p/10494868.html*
+*参考链接：[https://www.cnblogs.com/chenqionghe/p/10494868.html](https://www.cnblogs.com/chenqionghe/p/10494868.html)*
 
-*参考链接：https://yunlzheng.gitbook.io/prometheus-book/*
+*参考链接：[https://yunlzheng.gitbook.io/prometheus-book/](https://yunlzheng.gitbook.io/prometheus-book/)*
