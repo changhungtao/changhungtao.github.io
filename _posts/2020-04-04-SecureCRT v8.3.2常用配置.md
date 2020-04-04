@@ -24,11 +24,11 @@ tags:
 
 下载[Setting文件]({{ site.url }}/assets/file/绝佳配色方案.xml)，`Tools` -> `Import Settings`，选择Settings文件Import。
 
-### 跳板机设置
+## 跳板机设置
 
 跳板机：10.127.10.2，目标机：192.168.122.151，目标机是跳板机上的一台VM，跳板机可以直接连接，目标机无法直接连接。
 
-#### 跳板机Session
+### 跳板机Session
 
 新建跳板机Session，设置名称、IP、账号等信息
 ![CRT-set-1]({{site.url}}/assets/img/SecureCRT-set-1.png){: .align-center}
@@ -36,13 +36,13 @@ tags:
 `Port Forwarding`增加`Local Port Forwarding`
 ![CRT-set-2]({{site.url}}/assets/img/SecureCRT-set-2.png){: .align-center}
 
-#### Global Session
+### Global Session
 
 `Options` -> `Global Options` -> `Firewall`，添加一个Firewall
 
 ![CRT-set-3]({{site.url}}/assets/img/SecureCRT-set-3.png){: .align-center}
 
-#### 目标机Session
+### 目标机Session
 
 新建目标机Session，设置名称、IP、账号等信息，在Firewall栏选择上一步新建的Firewall
 
