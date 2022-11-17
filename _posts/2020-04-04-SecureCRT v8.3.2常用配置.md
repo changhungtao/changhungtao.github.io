@@ -20,7 +20,7 @@ tags:
 提取码：znkk
 
 ## 配色方案
-![绝佳配色]({{site.url}}/assets/img/SecureCRT-peise-1.png){: .align-center}
+![绝佳配色](../assets/img/SecureCRT-peise-1.png){: .align-center}
 
 下载[Setting文件]({{ site.url }}/assets/file/绝佳配色方案.xml)，`Tools` -> `Import Settings`，选择Settings文件Import。
 
